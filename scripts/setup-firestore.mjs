@@ -14,6 +14,7 @@ const app = initializeApp({
 export const db = getFirestore(app);
 
 async function setupNotes() {
+  db.settings({host:'localhost', port:8080, ssl: false})
   const coll = db.collection(`${NOTES_COLLECTION}`);
 
   const allNotes = readNotes();
