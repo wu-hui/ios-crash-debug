@@ -1189,7 +1189,7 @@
   dependencies:
     text-decoding "^1.0.0"
 
-"@firebase/analytics-compat@0.1.13-drop-remote-events.61bb53d77":
+"@firebase/analytics-compat@0.1.13-no-fetch.61bb53d77":
   version "0.1.13"
   resolved "http://localhost:4873/@firebase%2fanalytics-compat/-/analytics-compat-0.1.13.tgz#61e1d6f9e4d033c3ed9943d91530eb3e0f382f92"
   integrity sha512-QC1DH/Dwc8fBihn0H+jocBWyE17GF1fOCpCrpAiQ2u16F/NqsVDVG4LjIqdhq963DXaXneNY7oDwa25Up682AA==
@@ -1205,7 +1205,7 @@
   resolved "http://localhost:4873/@firebase%2fanalytics-types/-/analytics-types-0.7.0.tgz#91960e7c87ce8bf18cf8dd9e55ccbf5dc3989b5d"
   integrity sha512-DNE2Waiwy5+zZnCfintkDtBfaW6MjIG883474v6Z0K1XZIvl76cLND4iv0YUb48leyF+PJK1KO2XrgHb/KpmhQ==
 
-"@firebase/analytics@0.8.0", "@firebase/analytics@0.8.0-drop-remote-events.61bb53d77":
+"@firebase/analytics@0.8.0", "@firebase/analytics@0.8.0-no-fetch.61bb53d77":
   version "0.8.0"
   resolved "http://localhost:4873/@firebase%2fanalytics/-/analytics-0.8.0.tgz#b5d595082f57d33842b1fd9025d88f83065e87fe"
   integrity sha512-wkcwainNm8Cu2xkJpDSHfhBSdDJn86Q1TZNmLWc67VrhZUHXIKXxIqb65/tNUVE+I8+sFiDDNwA+9R3MqTQTaA==
@@ -1216,7 +1216,7 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/app-check-compat@0.2.12-drop-remote-events.61bb53d77":
+"@firebase/app-check-compat@0.2.12-no-fetch.61bb53d77":
   version "0.2.12"
   resolved "http://localhost:4873/@firebase%2fapp-check-compat/-/app-check-compat-0.2.12.tgz#e30b2395e3d30f8cfcf3554fc87875f82c1aa086"
   integrity sha512-GFppNLlUyMN9Iq31ME/+GkjRVKlc+MeanzUKQ9UaR73ZsYH3oX3Ja+xjoYgixaVJDDG+ofBYR7ZXTkkQdSR/pw==
@@ -1238,7 +1238,7 @@
   resolved "http://localhost:4873/@firebase%2fapp-check-types/-/app-check-types-0.4.0.tgz#7007a9d1d720db20bcf466fe6785c96feaa0a82d"
   integrity sha512-SsWafqMABIOu7zLgWbmwvHGOeQQVQlwm42kwwubsmfLmL4Sf5uGpBfDhQ0CAkpi7bkJ/NwNFKafNDL9prRNP0Q==
 
-"@firebase/app-check@0.5.12", "@firebase/app-check@0.5.12-drop-remote-events.61bb53d77":
+"@firebase/app-check@0.5.12", "@firebase/app-check@0.5.12-no-fetch.61bb53d77":
   version "0.5.12"
   resolved "http://localhost:4873/@firebase%2fapp-check/-/app-check-0.5.12.tgz#82f305cc01bfe4d32c35e425941b2eca2ce9f089"
   integrity sha512-l+MmvupSGT/F+I5ei7XjhEfpoL4hLVJr0vUwcG5NEf2hAkQnySli9fnbl9fZu1BJaQ2kthrMmtg1gcbcM9BUCQ==
@@ -1248,7 +1248,7 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/app-compat@0.1.31-drop-remote-events.61bb53d77":
+"@firebase/app-compat@0.1.31-no-fetch.61bb53d77":
   version "0.1.31"
   resolved "http://localhost:4873/@firebase%2fapp-compat/-/app-compat-0.1.31.tgz#a52b3cc34d2dd8b790a48eaefbf05ce0f3b20be4"
   integrity sha512-oH3F4Pf0/Q0WTyNynMlaoM1qjUTTu7ofDdAWUOgr9BH9gftIClqeCulltXSQH3DO3XUE61pIIpIakAWQ7zzumA==
@@ -1259,7 +1259,7 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/app-types@0.7.0", "@firebase/app-types@0.7.0-drop-remote-events.61bb53d77":
+"@firebase/app-types@0.7.0", "@firebase/app-types@0.7.0-no-fetch.61bb53d77":
   version "0.7.0"
   resolved "http://localhost:4873/@firebase%2fapp-types/-/app-types-0.7.0.tgz#c9e16d1b8bed1a991840b8d2a725fb58d0b5899f"
   integrity sha512-6fbHQwDv2jp/v6bXhBw2eSRbNBpxHcd1NBF864UksSMVIqIyri9qpJB1Mn6sGZE+bnDsSQBC5j2TbMxYsJQkQg==
@@ -1275,26 +1275,26 @@
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/app@0.7.30-drop-remote-events.61bb53d77":
-  version "0.7.30-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2fapp/-/app-0.7.30-drop-remote-events.61bb53d77.tgz#9b03ba967c491baff8265dc1334a2f1b99b10b95"
-  integrity sha512-h1dgfkhcWaq5eIcuLREIeneKZ01EsDsNA1BtkdCxk6nmOv1KyWn5sXUTjprsnobRALpveUVmYIqh4UxN4EzjAg==
+"@firebase/app@0.7.30-no-fetch.61bb53d77":
+  version "0.7.30-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2fapp/-/app-0.7.30-no-fetch.61bb53d77.tgz#05646298709f4c0620cbe67715c90ecaf175c82d"
+  integrity sha512-88PSzyB4yD5Jkfzl/rJoSylNAYIyQCj84HSmEs1eDZtGPCydPQLtKaIZZ+ALZusKvJpG7qrAvl3Va4pYSwhShA==
   dependencies:
-    "@firebase/component" "0.5.17-drop-remote-events.61bb53d77"
-    "@firebase/logger" "0.3.3-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
+    "@firebase/component" "0.5.17-no-fetch.61bb53d77"
+    "@firebase/logger" "0.3.3-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/auth-compat@0.2.18-drop-remote-events.61bb53d77":
-  version "0.2.18-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2fauth-compat/-/auth-compat-0.2.18-drop-remote-events.61bb53d77.tgz#c1dbdc4544bfad82c04e1fe71f2103931e5ffea6"
-  integrity sha512-8h1MDfiWGtLHkgi2TAF3uIZjJV3tuRg2KBqjJEBOHQ5LKnLyUxNBKsHLXB0kokzFkrWCdqlDhEcUPGRkSZ7z4g==
+"@firebase/auth-compat@0.2.18-no-fetch.61bb53d77":
+  version "0.2.18-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2fauth-compat/-/auth-compat-0.2.18-no-fetch.61bb53d77.tgz#1f0492939a2b06f4b264ea8a8467827b7e3066ef"
+  integrity sha512-Dhv0c6n/MEV8/AI0gUANTYHJZgd4yvTWQbqO9wV1YrlIhIo4CUdqiJbVX7kTVBM9cp+jr0VYm1S5cIaslHfJBg==
   dependencies:
-    "@firebase/auth" "0.20.5-drop-remote-events.61bb53d77"
-    "@firebase/auth-types" "0.11.0-drop-remote-events.61bb53d77"
-    "@firebase/component" "0.5.17-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
+    "@firebase/auth" "0.20.5-no-fetch.61bb53d77"
+    "@firebase/auth-types" "0.11.0-no-fetch.61bb53d77"
+    "@firebase/component" "0.5.17-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
     node-fetch "2.6.7"
     selenium-webdriver "4.1.2"
     tslib "^2.1.0"
@@ -1304,19 +1304,19 @@
   resolved "https://registry.yarnpkg.com/@firebase/auth-interop-types/-/auth-interop-types-0.1.6.tgz#5ce13fc1c527ad36f1bb1322c4492680a6cf4964"
   integrity sha512-etIi92fW3CctsmR9e3sYM3Uqnoq861M0Id9mdOPF6PWIg38BXL5k4upCNBggGUpLIS0H1grMOvy/wn1xymwe2g==
 
-"@firebase/auth-types@0.11.0-drop-remote-events.61bb53d77":
-  version "0.11.0-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2fauth-types/-/auth-types-0.11.0-drop-remote-events.61bb53d77.tgz#fd8d7477018cb9b08ecf26b9670599e0d4c008e2"
-  integrity sha512-0Z6F2y0IOnuEIOL1/En0HhWhOppaAGQ3+U+DyuHPmU87b65jyU+gvXR6NYGvD4qM+b6qUBqDf5u3zci8etr8/Q==
+"@firebase/auth-types@0.11.0-no-fetch.61bb53d77":
+  version "0.11.0-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2fauth-types/-/auth-types-0.11.0-no-fetch.61bb53d77.tgz#91a197cd76ccf1ceb804245a37bdbac33606165f"
+  integrity sha512-QEJv+O21K2rZkFJGOq1LeBfi9YE+KcHEAS4VOMOfn7/af5/VRE49Rct8dg5e0uv+dR2TN/MxvRIoRfIWALTkLw==
 
-"@firebase/auth@0.20.5-drop-remote-events.61bb53d77":
-  version "0.20.5-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2fauth/-/auth-0.20.5-drop-remote-events.61bb53d77.tgz#d951a742a4d1824a4889753acff95c30dc756dca"
-  integrity sha512-EnP0+88qTkvjzSZtVIt0qonfnT+NN9MTcRsACGUmT9A0YqqOsrd4F/vngdoTefAI/5zu7eDebZASUPHkbBPNJA==
+"@firebase/auth@0.20.5-no-fetch.61bb53d77":
+  version "0.20.5-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2fauth/-/auth-0.20.5-no-fetch.61bb53d77.tgz#6be96f43f4ce95a36c31205eb36bc1a87f6f2a6c"
+  integrity sha512-Vg74zm6S/QNttzRVoPdKKJDjXaYK03/wjHnvzD9eLzbWxM4BbsSbSSPJJizbK3s/QMWMqBA1uMnpFVKvVSy12Q==
   dependencies:
-    "@firebase/component" "0.5.17-drop-remote-events.61bb53d77"
-    "@firebase/logger" "0.3.3-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
+    "@firebase/component" "0.5.17-no-fetch.61bb53d77"
+    "@firebase/logger" "0.3.3-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
     node-fetch "2.6.7"
     selenium-webdriver "4.1.2"
     tslib "^2.1.0"
@@ -1329,7 +1329,7 @@
     "@firebase/util" "0.3.3-2020922203858"
     tslib "^1.11.1"
 
-"@firebase/component@0.5.17", "@firebase/component@0.5.17-drop-remote-events.61bb53d77":
+"@firebase/component@0.5.17", "@firebase/component@0.5.17-no-fetch.61bb53d77":
   version "0.5.17"
   resolved "http://localhost:4873/@firebase%2fcomponent/-/component-0.5.17.tgz#89291f378714df05d44430c524708669380d8ea6"
   integrity sha512-mTM5CBSIlmI+i76qU4+DhuExnWtzcPS3cVgObA3VAjliPPr3GrUlTaaa8KBGfxsD27juQxMsYA0TvCR5X+GQ3Q==
@@ -1337,7 +1337,7 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/database-compat@0.2.4-drop-remote-events.61bb53d77":
+"@firebase/database-compat@0.2.4-no-fetch.61bb53d77":
   version "0.2.4"
   resolved "http://localhost:4873/@firebase%2fdatabase-compat/-/database-compat-0.2.4.tgz#4e72dfa477011f69595fec80a9b688e3ea672d2f"
   integrity sha512-VtsGixO5mTjNMJn6PwxAJEAR70fj+3blCXIdQKel3q+eYGZAfdqxox1+tzZDnf9NWBJpaOgAHPk3JVDxEo9NFQ==
@@ -1389,7 +1389,7 @@
     faye-websocket "0.11.4"
     tslib "^2.1.0"
 
-"@firebase/database@0.13.4", "@firebase/database@0.13.4-drop-remote-events.61bb53d77":
+"@firebase/database@0.13.4", "@firebase/database@0.13.4-no-fetch.61bb53d77":
   version "0.13.4"
   resolved "http://localhost:4873/@firebase%2fdatabase/-/database-0.13.4.tgz#9b95968932a2c0e16f5dc995370262d366e0a469"
   integrity sha512-NW7bOoiaC4sJCj6DY/m9xHoFNa0CK32YPMCh6FiMweLCDQbOZM8Ql/Kn6yyuxCb7K7ypz9eSbRlCWQJsJRQjhg==
@@ -1401,37 +1401,37 @@
     faye-websocket "0.11.4"
     tslib "^2.1.0"
 
-"@firebase/firestore-compat@0.1.23-drop-remote-events.61bb53d77":
-  version "0.1.23-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2ffirestore-compat/-/firestore-compat-0.1.23-drop-remote-events.61bb53d77.tgz#c00c752b44da5e25cbc11e6b16578b91eb93887f"
-  integrity sha512-E/c0up1O6Zs3EWCAeNbPgZPi3dxNZ35/nySBgEaj4ESC6mk7Zv7U9rogSPGfxMf3fqMpyydaHp5BCGFrRS+CHw==
+"@firebase/firestore-compat@0.1.23-no-fetch.61bb53d77":
+  version "0.1.23-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2ffirestore-compat/-/firestore-compat-0.1.23-no-fetch.61bb53d77.tgz#808592e35ac078b2b81740f57241c62d5d92eca8"
+  integrity sha512-qB00V/hNqQvnC2GBE/xWT77I/KXiqBO/WJMdiIRvVR+FGFRTniWo3sxdJcJlKs6VpNA0watSk81a8Krc1RNxmQ==
   dependencies:
-    "@firebase/component" "0.5.17-drop-remote-events.61bb53d77"
-    "@firebase/firestore" "3.4.14-drop-remote-events.61bb53d77"
-    "@firebase/firestore-types" "2.5.0-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
+    "@firebase/component" "0.5.17-no-fetch.61bb53d77"
+    "@firebase/firestore" "3.4.14-no-fetch.61bb53d77"
+    "@firebase/firestore-types" "2.5.0-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
     tslib "^2.1.0"
 
-"@firebase/firestore-types@2.5.0-drop-remote-events.61bb53d77":
-  version "2.5.0-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2ffirestore-types/-/firestore-types-2.5.0-drop-remote-events.61bb53d77.tgz#bb10223a5454e9f9ae86389fbb6c336ec9299dfa"
-  integrity sha512-fbeppny+mXyWQtFW9jMyHwRvI6/LK+EXBxzHNWe6AdV4xqrgP52nrapmu5Bv3fw52L55rifSoQlG6VxZPCIE6Q==
+"@firebase/firestore-types@2.5.0-no-fetch.61bb53d77":
+  version "2.5.0-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2ffirestore-types/-/firestore-types-2.5.0-no-fetch.61bb53d77.tgz#358b7a77ee954621ab5935ebe0c4fd388a2377a3"
+  integrity sha512-cCvrGBZ5O1qHbIrSCrQGdIukHSCC/9hSiEtQqgkt4RrP5yLS5S+FL3M2MUY/r4Lthr8V62ShFhu4oHnf7mwx5g==
 
-"@firebase/firestore@3.4.14-drop-remote-events.61bb53d77":
-  version "3.4.14-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/@firebase%2ffirestore/-/firestore-3.4.14-drop-remote-events.61bb53d77.tgz#62aecc2da24a8f301305fe62fbdb1bc08053d63f"
-  integrity sha512-flXF+1xi0yPAXMxbbsAqKhLdc7d1i95ahdjGhSFkKBlyxLSLl29PtcY8cbAWTBl3b6EKEmF4U4SGT2g2JrfFIw==
+"@firebase/firestore@3.4.14-no-fetch.61bb53d77":
+  version "3.4.14-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2ffirestore/-/firestore-3.4.14-no-fetch.61bb53d77.tgz#c86aff61424f593cb49ce432f433e5af9dda8091"
+  integrity sha512-EAIAX8sfzgVdbz68zEQ7wnO3rhCysG5FTRfbM02vDSU/jaP5cqp7DmIMD6aKtedtNk6hHcjmIjCDE1pzYoP6aA==
   dependencies:
-    "@firebase/component" "0.5.17-drop-remote-events.61bb53d77"
-    "@firebase/logger" "0.3.3-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
-    "@firebase/webchannel-wrapper" "0.6.2-drop-remote-events.61bb53d77"
+    "@firebase/component" "0.5.17-no-fetch.61bb53d77"
+    "@firebase/logger" "0.3.3-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
+    "@firebase/webchannel-wrapper" "0.6.2-no-fetch.61bb53d77"
     "@grpc/grpc-js" "^1.3.2"
     "@grpc/proto-loader" "^0.6.13"
     node-fetch "2.6.7"
     tslib "^2.1.0"
 
-"@firebase/functions-compat@0.2.4-drop-remote-events.61bb53d77":
+"@firebase/functions-compat@0.2.4-no-fetch.61bb53d77":
   version "0.2.4"
   resolved "http://localhost:4873/@firebase%2ffunctions-compat/-/functions-compat-0.2.4.tgz#afa5d8eefe6d51c7b89e44d9262700b68fbcb73f"
   integrity sha512-Crfn6il1yXGuXkjSd8nKrqR4XxPvuP19g64bXpM6Ix67qOkQg676kyOuww0FF17xN0NSXHfG8Pyf+CUrx8wJ5g==
@@ -1447,7 +1447,7 @@
   resolved "http://localhost:4873/@firebase%2ffunctions-types/-/functions-types-0.5.0.tgz#b50ba95ccce9e96f7cda453228ffe1684645625b"
   integrity sha512-qza0M5EwX+Ocrl1cYI14zoipUX4gI/Shwqv0C1nB864INAD42Dgv4v94BCyxGHBg2kzlWy8PNafdP7zPO8aJQA==
 
-"@firebase/functions@0.8.4", "@firebase/functions@0.8.4-drop-remote-events.61bb53d77":
+"@firebase/functions@0.8.4", "@firebase/functions@0.8.4-no-fetch.61bb53d77":
   version "0.8.4"
   resolved "http://localhost:4873/@firebase%2ffunctions/-/functions-0.8.4.tgz#a9b7a10314f286df1ded87d8546fb8d9107a9c06"
   integrity sha512-o1bB0xMyQKe+b246zGnjwHj4R6BH4mU2ZrSaa/3QvTpahUQ3hqYfkZPLOXCU7+vEFxHb3Hd4UUjkFhxoAcPqLA==
@@ -1460,7 +1460,7 @@
     node-fetch "2.6.7"
     tslib "^2.1.0"
 
-"@firebase/installations-compat@0.1.12-drop-remote-events.61bb53d77":
+"@firebase/installations-compat@0.1.12-no-fetch.61bb53d77":
   version "0.1.12"
   resolved "http://localhost:4873/@firebase%2finstallations-compat/-/installations-compat-0.1.12.tgz#d0394127f71aff596cb8bb607840095d1617246e"
   integrity sha512-BIhFpWIn/GkuOa+jnXkp3SDJT2RLYJF6MWpinHIBKFJs7MfrgYZ3zQ1AlhobDEql+bkD1dK4dB5sNcET2T+EyA==
@@ -1476,7 +1476,7 @@
   resolved "http://localhost:4873/@firebase%2finstallations-types/-/installations-types-0.4.0.tgz#256782ff9adfb390ac658c25bc32f89635ddce7c"
   integrity sha512-nXxWKQDvBGctuvsizbUEJKfxXU9WAaDhon+j0jpjIfOJkvkj3YHqlLB/HeYjpUn85Pb22BjplpTnDn4Gm9pc3A==
 
-"@firebase/installations@0.5.12", "@firebase/installations@0.5.12-drop-remote-events.61bb53d77":
+"@firebase/installations@0.5.12", "@firebase/installations@0.5.12-no-fetch.61bb53d77":
   version "0.5.12"
   resolved "http://localhost:4873/@firebase%2finstallations/-/installations-0.5.12.tgz#1d5764aa6f0b73d9d6d1a81a07eab5cd71a5ea27"
   integrity sha512-Zq43fCE0PB5tGJ3ojzx5RNQzKdej1188qgAk22rwjuhP7npaG/PlJqDG1/V0ZjTLRePZ1xGrfXSPlA17c/vtNw==
@@ -1486,14 +1486,14 @@
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/logger@0.3.3", "@firebase/logger@0.3.3-drop-remote-events.61bb53d77":
+"@firebase/logger@0.3.3", "@firebase/logger@0.3.3-no-fetch.61bb53d77":
   version "0.3.3"
   resolved "http://localhost:4873/@firebase%2flogger/-/logger-0.3.3.tgz#0f724b1e0b166d17ac285aac5c8ec14d136beed4"
   integrity sha512-POTJl07jOKTOevLXrTvJD/VZ0M6PnJXflbAh5J9VGkmtXPXNG6MdZ9fmRgqYhXKTaDId6AQenQ262uwgpdtO0Q==
   dependencies:
     tslib "^2.1.0"
 
-"@firebase/messaging-compat@0.1.16-drop-remote-events.61bb53d77":
+"@firebase/messaging-compat@0.1.16-no-fetch.61bb53d77":
   version "0.1.16"
   resolved "http://localhost:4873/@firebase%2fmessaging-compat/-/messaging-compat-0.1.16.tgz#4fe4e2c1b496e62f63e815cb242a2ab323cd7899"
   integrity sha512-uG7rWcXJzU8vvlEBFpwG1ndw/GURrrmKcwsHopEWbsPGjMRaVWa7XrdKbvIR7IZohqPzcC/V9L8EeqF4Q4lz8w==
@@ -1508,7 +1508,7 @@
   resolved "http://localhost:4873/@firebase%2fmessaging-interop-types/-/messaging-interop-types-0.1.0.tgz#bdac02dd31edd5cb9eec37b1db698ea5e2c1a631"
   integrity sha512-DbvUl/rXAZpQeKBnwz0NYY5OCqr2nFA0Bj28Fmr3NXGqR4PAkfTOHuQlVtLO1Nudo3q0HxAYLa68ZDAcuv2uKQ==
 
-"@firebase/messaging@0.9.16", "@firebase/messaging@0.9.16-drop-remote-events.61bb53d77":
+"@firebase/messaging@0.9.16", "@firebase/messaging@0.9.16-no-fetch.61bb53d77":
   version "0.9.16"
   resolved "http://localhost:4873/@firebase%2fmessaging/-/messaging-0.9.16.tgz#96b57ebbb054e57f78585f85f59d521c5ba5cd85"
   integrity sha512-Yl9gGrAvJF6C1gg3+Cr2HxlL6APsDEkrorkFafmSP1l+rg1epZKoOAcKJbSF02Vtb50wfb9FqGGy8tzodgETxg==
@@ -1520,7 +1520,7 @@
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/performance-compat@0.1.12-drop-remote-events.61bb53d77":
+"@firebase/performance-compat@0.1.12-no-fetch.61bb53d77":
   version "0.1.12"
   resolved "http://localhost:4873/@firebase%2fperformance-compat/-/performance-compat-0.1.12.tgz#ac50b0cd29bf7f5e1e33c640dba25e2f8db95f0b"
   integrity sha512-IBORzUeGY1MGdZnsix9Mu5z4+C3WHIwalu0usxvygL0EZKHztGG8bppYPGH/b5vvg8QyHs9U+Pn1Ot2jZhffQQ==
@@ -1537,7 +1537,7 @@
   resolved "http://localhost:4873/@firebase%2fperformance-types/-/performance-types-0.1.0.tgz#5e6efa9dc81860aee2cb7121b39ae8fa137e69fc"
   integrity sha512-6p1HxrH0mpx+622Ql6fcxFxfkYSBpE3LSuwM7iTtYU2nw91Hj6THC8Bc8z4nboIq7WvgsT/kOTYVVZzCSlXl8w==
 
-"@firebase/performance@0.5.12", "@firebase/performance@0.5.12-drop-remote-events.61bb53d77":
+"@firebase/performance@0.5.12", "@firebase/performance@0.5.12-no-fetch.61bb53d77":
   version "0.5.12"
   resolved "http://localhost:4873/@firebase%2fperformance/-/performance-0.5.12.tgz#4eae3eb91eeffb29b996e7908172052d4a901856"
   integrity sha512-MPVTkOkGrm2SMQgI1FPNBm85y2pPqlPb6VDjIMCWkVpAr6G1IZzUT24yEMySRcIlK/Hh7/Qu1Nu5ASRzRuX6+Q==
@@ -1550,14 +1550,14 @@
 
 "@firebase/polyfill@0.3.36":
   version "0.3.36"
-  resolved "https://registry.yarnpkg.com/@firebase/polyfill/-/polyfill-0.3.36.tgz#c057cce6748170f36966b555749472b25efdb145"
+  resolved "http://localhost:4873/@firebase%2fpolyfill/-/polyfill-0.3.36.tgz#c057cce6748170f36966b555749472b25efdb145"
   integrity sha512-zMM9oSJgY6cT2jx3Ce9LYqb0eIpDE52meIzd/oe/y70F+v9u1LDqk5kUF5mf16zovGBWMNFmgzlsh6Wj0OsFtg==
   dependencies:
     core-js "3.6.5"
     promise-polyfill "8.1.3"
     whatwg-fetch "2.0.4"
 
-"@firebase/remote-config-compat@0.1.12-drop-remote-events.61bb53d77":
+"@firebase/remote-config-compat@0.1.12-no-fetch.61bb53d77":
   version "0.1.12"
   resolved "http://localhost:4873/@firebase%2fremote-config-compat/-/remote-config-compat-0.1.12.tgz#7606752d7bfe2701d58568345ca536beda14ee53"
   integrity sha512-Yz7Gtb2rLa7ykXZX9DnSTId8CXd++jFFLW3foUImrYwJEtWgLJc7gwkRfd1M73IlKGNuQAY+DpUNF0n1dLbecA==
@@ -1574,7 +1574,7 @@
   resolved "http://localhost:4873/@firebase%2fremote-config-types/-/remote-config-types-0.2.0.tgz#1e2759fc01f20b58c564db42196f075844c3d1fd"
   integrity sha512-hqK5sCPeZvcHQ1D6VjJZdW6EexLTXNMJfPdTwbD8NrXUw6UjWC4KWhLK/TSlL0QPsQtcKRkaaoP+9QCgKfMFPw==
 
-"@firebase/remote-config@0.3.11", "@firebase/remote-config@0.3.11-drop-remote-events.61bb53d77":
+"@firebase/remote-config@0.3.11", "@firebase/remote-config@0.3.11-no-fetch.61bb53d77":
   version "0.3.11"
   resolved "http://localhost:4873/@firebase%2fremote-config/-/remote-config-0.3.11.tgz#93c82b5944a20c027f4ee82c145813ca96b430bb"
   integrity sha512-qA84dstrvVpO7rWT/sb2CLv1kjHVmz59SRFPKohJJYFBcPOGK4Pe4FWWhKAE9yg1Gnl0qYAGkahOwNawq3vE0g==
@@ -1585,7 +1585,7 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/storage-compat@0.1.17-drop-remote-events.61bb53d77":
+"@firebase/storage-compat@0.1.17-no-fetch.61bb53d77":
   version "0.1.17"
   resolved "http://localhost:4873/@firebase%2fstorage-compat/-/storage-compat-0.1.17.tgz#da721071e006d066fb9b1cff69481bd59a02346b"
   integrity sha512-nOYmnpI0gwoz5nROseMi9WbmHGf+xumfsOvdPyMZAjy0VqbDnpKIwmTUZQBdR+bLuB5oIkHQsvw9nbb1SH+PzQ==
@@ -1598,7 +1598,7 @@
 
 "@firebase/storage-types@0.3.13":
   version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@firebase/storage-types/-/storage-types-0.3.13.tgz#cd43e939a2ab5742e109eb639a313673a48b5458"
+  resolved "http://localhost:4873/@firebase%2fstorage-types/-/storage-types-0.3.13.tgz#cd43e939a2ab5742e109eb639a313673a48b5458"
   integrity sha512-pL7b8d5kMNCCL0w9hF7pr16POyKkb3imOW7w0qYrhBnbyJTdVxMWZhb0HxCFyQWC0w3EiIFFmxoz8NTFZDEFog==
 
 "@firebase/storage-types@0.6.0":
@@ -1616,7 +1616,7 @@
     node-fetch "2.6.7"
     tslib "^2.1.0"
 
-"@firebase/storage@0.9.9-drop-remote-events.61bb53d77":
+"@firebase/storage@0.9.9-no-fetch.61bb53d77":
   version "1.0.0-2020922203858"
   resolved "http://localhost:4873/@firebase%2fstorage/-/storage-1.0.0-2020922203858.tgz#6dad49ab2393bd8187d46811ffe6a7d6a8d03537"
   integrity sha512-HVu8LDi6zfPuyiKFU7RGpXhSEw9waNs7I2F+k2pjbp0VGWa7WSP51909LqzY7g+05zIC6x9rnWo2A7R50/h4+Q==
@@ -1633,17 +1633,17 @@
   dependencies:
     tslib "^1.11.1"
 
-"@firebase/util@1.6.3", "@firebase/util@1.6.3-drop-remote-events.61bb53d77":
+"@firebase/util@1.6.3", "@firebase/util@1.6.3-no-fetch.61bb53d77":
   version "1.6.3"
   resolved "http://localhost:4873/@firebase%2futil/-/util-1.6.3.tgz#76128c1b5684c031823e95f6c08a7fb8560655c6"
   integrity sha512-FujteO6Zjv6v8A4HS+t7c+PjU0Kaxj+rOnka0BsI/twUaCC9t8EQPmXpWZdk7XfszfahJn2pqsflUWUhtUkRlg==
   dependencies:
     tslib "^2.1.0"
 
-"@firebase/webchannel-wrapper@0.6.2-drop-remote-events.61bb53d77":
-  version "0.6.2"
-  resolved "http://localhost:4873/@firebase%2fwebchannel-wrapper/-/webchannel-wrapper-0.6.2.tgz#6d05fa126104c9907573364dc04147b89b530e15"
-  integrity sha512-zThUKcqIU6utWzM93uEvhlh8qj8A5LMPFJPvk/ODb+8GSSif19xM2Lw1M2ijyBy8+6skSkQBbavPzOU5Oh/8tQ==
+"@firebase/webchannel-wrapper@0.6.2-no-fetch.61bb53d77":
+  version "0.6.2-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/@firebase%2fwebchannel-wrapper/-/webchannel-wrapper-0.6.2-no-fetch.61bb53d77.tgz#81993cb434615f326c3b722e9d4baaa1593b4e0e"
+  integrity sha512-nVUnT5A1BKsjwxwFfP6d69R9CmUo+hN4qMpWFh/LjDt35gjdqe/6AiQbC4ODisuAPItDOwhC0lNTIfpaGMYJgA==
 
 "@google-cloud/firestore@^4.15.1":
   version "4.15.1"
@@ -1702,7 +1702,15 @@
     uuid "^8.0.0"
     xdg-basedir "^4.0.0"
 
-"@grpc/grpc-js@^1.3.2", "@grpc/grpc-js@~1.6.0":
+"@grpc/grpc-js@^1.3.2":
+  version "1.6.9"
+  resolved "http://localhost:4873/@grpc%2fgrpc-js/-/grpc-js-1.6.9.tgz#f8feeeb599c1ad148abaab39efbb597c22783fef"
+  integrity sha512-01Dy1wqXVsuiMI4m4tDoX+IPYAeNI8EsfNFPqAJBX4OiCSs5VU8Gw0pJq5NhGizH6nKUprmHb/QvxTq3d1xL5g==
+  dependencies:
+    "@grpc/proto-loader" "^0.7.0"
+    "@types/node" ">=12.12.47"
+
+"@grpc/grpc-js@~1.6.0":
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.6.8.tgz#77cc8b2d841c34dea8b105d45ff1732caefae4f2"
   integrity sha512-Nt5tufF/O5Q310kP0cDzxznWMZW58GCTZhUUiAQ9B0K0ANKNQ4Lj/K9XK0vZg+UBKq5/7z7+8mXHHfrcwoeFJQ==
@@ -3842,7 +3850,7 @@ core-js-pure@^3.20.2, core-js-pure@^3.8.1:
 
 core-js@3.6.5:
   version "3.6.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  resolved "http://localhost:4873/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
 core-js@^3.19.2:
@@ -5076,38 +5084,38 @@ firebase-admin@^10.0.2:
     "@google-cloud/firestore" "^4.15.1"
     "@google-cloud/storage" "^5.18.3"
 
-firebase@9.9.2-drop-remote-events.61bb53d77:
-  version "9.9.2-drop-remote-events.61bb53d77"
-  resolved "http://localhost:4873/firebase/-/firebase-9.9.2-drop-remote-events.61bb53d77.tgz#dccbadaad250e77f19503d3b13c2e04d6c0f9677"
-  integrity sha512-K0l+D4YmZDvIhCzw1bKKfsjs2W0CBu6Bc7kdIF79oG0v1JxZph5zB3Sc8X4nxGDIM+UIneOudDRYZrqOqJj1hA==
+firebase@9.9.2-no-fetch.61bb53d77:
+  version "9.9.2-no-fetch.61bb53d77"
+  resolved "http://localhost:4873/firebase/-/firebase-9.9.2-no-fetch.61bb53d77.tgz#f66d607569f415c0d22d33a3553892e72a90e127"
+  integrity sha512-ZoyWIvNzJLdSctJTVE3DVP6j5EY+s2deEY8L8QsQ9Fz4fkwFE7/6WA3jMpKiJJr+HEnhbTGxwr9FWRRvxKkDLw==
   dependencies:
-    "@firebase/analytics" "0.8.0-drop-remote-events.61bb53d77"
-    "@firebase/analytics-compat" "0.1.13-drop-remote-events.61bb53d77"
-    "@firebase/app" "0.7.30-drop-remote-events.61bb53d77"
-    "@firebase/app-check" "0.5.12-drop-remote-events.61bb53d77"
-    "@firebase/app-check-compat" "0.2.12-drop-remote-events.61bb53d77"
-    "@firebase/app-compat" "0.1.31-drop-remote-events.61bb53d77"
-    "@firebase/app-types" "0.7.0-drop-remote-events.61bb53d77"
-    "@firebase/auth" "0.20.5-drop-remote-events.61bb53d77"
-    "@firebase/auth-compat" "0.2.18-drop-remote-events.61bb53d77"
-    "@firebase/database" "0.13.4-drop-remote-events.61bb53d77"
-    "@firebase/database-compat" "0.2.4-drop-remote-events.61bb53d77"
-    "@firebase/firestore" "3.4.14-drop-remote-events.61bb53d77"
-    "@firebase/firestore-compat" "0.1.23-drop-remote-events.61bb53d77"
-    "@firebase/functions" "0.8.4-drop-remote-events.61bb53d77"
-    "@firebase/functions-compat" "0.2.4-drop-remote-events.61bb53d77"
-    "@firebase/installations" "0.5.12-drop-remote-events.61bb53d77"
-    "@firebase/installations-compat" "0.1.12-drop-remote-events.61bb53d77"
-    "@firebase/messaging" "0.9.16-drop-remote-events.61bb53d77"
-    "@firebase/messaging-compat" "0.1.16-drop-remote-events.61bb53d77"
-    "@firebase/performance" "0.5.12-drop-remote-events.61bb53d77"
-    "@firebase/performance-compat" "0.1.12-drop-remote-events.61bb53d77"
+    "@firebase/analytics" "0.8.0-no-fetch.61bb53d77"
+    "@firebase/analytics-compat" "0.1.13-no-fetch.61bb53d77"
+    "@firebase/app" "0.7.30-no-fetch.61bb53d77"
+    "@firebase/app-check" "0.5.12-no-fetch.61bb53d77"
+    "@firebase/app-check-compat" "0.2.12-no-fetch.61bb53d77"
+    "@firebase/app-compat" "0.1.31-no-fetch.61bb53d77"
+    "@firebase/app-types" "0.7.0-no-fetch.61bb53d77"
+    "@firebase/auth" "0.20.5-no-fetch.61bb53d77"
+    "@firebase/auth-compat" "0.2.18-no-fetch.61bb53d77"
+    "@firebase/database" "0.13.4-no-fetch.61bb53d77"
+    "@firebase/database-compat" "0.2.4-no-fetch.61bb53d77"
+    "@firebase/firestore" "3.4.14-no-fetch.61bb53d77"
+    "@firebase/firestore-compat" "0.1.23-no-fetch.61bb53d77"
+    "@firebase/functions" "0.8.4-no-fetch.61bb53d77"
+    "@firebase/functions-compat" "0.2.4-no-fetch.61bb53d77"
+    "@firebase/installations" "0.5.12-no-fetch.61bb53d77"
+    "@firebase/installations-compat" "0.1.12-no-fetch.61bb53d77"
+    "@firebase/messaging" "0.9.16-no-fetch.61bb53d77"
+    "@firebase/messaging-compat" "0.1.16-no-fetch.61bb53d77"
+    "@firebase/performance" "0.5.12-no-fetch.61bb53d77"
+    "@firebase/performance-compat" "0.1.12-no-fetch.61bb53d77"
     "@firebase/polyfill" "0.3.36"
-    "@firebase/remote-config" "0.3.11-drop-remote-events.61bb53d77"
-    "@firebase/remote-config-compat" "0.1.12-drop-remote-events.61bb53d77"
-    "@firebase/storage" "0.9.9-drop-remote-events.61bb53d77"
-    "@firebase/storage-compat" "0.1.17-drop-remote-events.61bb53d77"
-    "@firebase/util" "1.6.3-drop-remote-events.61bb53d77"
+    "@firebase/remote-config" "0.3.11-no-fetch.61bb53d77"
+    "@firebase/remote-config-compat" "0.1.12-no-fetch.61bb53d77"
+    "@firebase/storage" "0.9.9-no-fetch.61bb53d77"
+    "@firebase/storage-compat" "0.1.17-no-fetch.61bb53d77"
+    "@firebase/util" "1.6.3-no-fetch.61bb53d77"
 
 flat-cache@^3.0.4:
   version "3.0.4"
@@ -8156,7 +8164,7 @@ process-nextick-args@~2.0.0:
 
 promise-polyfill@8.1.3:
   version "8.1.3"
-  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.1.3.tgz#8c99b3cf53f3a91c68226ffde7bde81d7f904116"
+  resolved "http://localhost:4873/promise-polyfill/-/promise-polyfill-8.1.3.tgz#8c99b3cf53f3a91c68226ffde7bde81d7f904116"
   integrity sha512-MG5r82wBzh7pSKDRa9y+vllNHz3e3d4CNj1PQE4BQYxLme0gKYYBm9YENq+UkEikyZ0XbiGWxYlVw3Rl9O/U8g==
 
 promise@^8.1.0:
@@ -9890,7 +9898,7 @@ whatwg-encoding@^1.0.5:
 
 whatwg-fetch@2.0.4:
   version "2.0.4"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+  resolved "http://localhost:4873/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
   integrity sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
 
 whatwg-fetch@^3.6.2:

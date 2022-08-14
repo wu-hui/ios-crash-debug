@@ -1,8 +1,5 @@
 import { db } from "./firebase.config";
 import  * as firestore from '@firebase/firestore'
-import {connectFirestoreEmulator} from 'firebase/firestore';
-
-connectFirestoreEmulator(db, 'localhost', 8080)
 
 const NOTES_COLLECTION = "sample_data";
 
