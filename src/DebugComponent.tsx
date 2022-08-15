@@ -7,22 +7,10 @@ export const DebugComponent: React.FC = () => {
   const [started, setStarted] = React.useState(false);
   const [done, setDone] = React.useState(false);
 
-  const startOnfetchDocs = useCallback(async (maxCount: number) => {
-    setStarted(true);
-    await fetchDocs(maxCount, setCount);
-    setDone(true);
-  }, []);
-
   const startOnfetchDocsByWC = useCallback(async (maxCount: number) => {
     console.log('starting');
     setStarted(true);
     await fetchDocsByWC(maxCount, setCount);
-    setDone(true);
-  }, []);
-
-  const startOnfetchDocsGradually = useCallback(async (maxCount: number) => {
-    setStarted(true);
-    await fetchDocsGradually(maxCount, setCount);
     setDone(true);
   }, []);
 
@@ -36,7 +24,7 @@ export const DebugComponent: React.FC = () => {
     <div>
       {started ? null : (
           <>
-            <h4>Grab documents by webchannel by number</h4>
+            <h4>Grab documents by webchannel (repeat 10 times)</h4>
 
             <ul
                 style={{
@@ -45,7 +33,7 @@ export const DebugComponent: React.FC = () => {
                   flexDirection: "column",
                 }}
             >
-              {[100, 500, 1000, 2000, 5000].map((maxCount) => {
+              {[100, 200, 300, 400, 500].map((maxCount) => {
                 return (
                     <li key={maxCount}>
                       <button onClick={() => startOnfetchDocsByWC(maxCount)}>

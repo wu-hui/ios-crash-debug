@@ -40,15 +40,27 @@ export const fetchDocsByWC = async (
     maxCount: number,
     onLoadingPage: (count: number) => void
 ) => {
+  let repeat = 10;
   const conn = new WebChannelConnection();
   const stream = conn.openStream<ListenReq, unknown>('Listen');
   let req = {...templateReq};
   // @ts-ignore
   req.addTarget.query.structuredQuery.limit = maxCount;
-  console.log(`Sending ${req}`);
+  console.log(`Sending ${req} with remaining repeat ${repeat}`);
   stream.send(req);
   stream.onMessage(msg => {
     // @ts-ignore
-    console.log(`received ${msg.documentChange.document.name}`);
+    if(msg.targetChange && !msg.targetChange.targetChangeType) {
+      console.log(`Received global snapshot`);
+      if(repeat > 0) {
+        const newReq = {...req};
+        newReq.addTarget.targetId = req.addTarget.targetId + 1;
+        console.log(`Sending ${newReq} with remaining repeat ${repeat}`);
+        stream.send(newReq);
+
+        req = newReq;
+        repeat--;
+      }
+    }
   })
 }

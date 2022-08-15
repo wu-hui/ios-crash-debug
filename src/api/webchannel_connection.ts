@@ -319,7 +319,13 @@ export class WebChannelConnection {
               channel.close();
             } else {
               // @ts-ignore
-              console.log('WebChannel dropped:', msgData.documentChange.document.name);
+              if(msgData.targetChange) {
+                // @ts-ignore
+                console.log('WebChannel target change:', JSON.stringify(msgData.targetChange));
+              } else  {
+                // @ts-ignore
+                console.log('WebChannel received:', msgData.documentChange.document.name);
+              }
               streamBridge.callOnMessage(msgData);
             }
           }
