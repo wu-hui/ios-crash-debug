@@ -7,9 +7,7 @@ const BATCH_SIZE = 40;
 
 const NOTES_COLLECTION = "sample_data";
 
-const app = initializeApp({
-  credential: applicationDefault(),
-});
+const app = initializeApp({projectId: 'ios-crash-debug'});
 
 export const db = getFirestore(app);
 
