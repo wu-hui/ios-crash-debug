@@ -126,17 +126,15 @@ const RPC_STREAM_SERVICE = 'google.firestore.v1.Firestore';
 const XHR_TIMEOUT_SECS = 15;
 
 export class WebChannelConnection {
-  private readonly forceLongPolling: boolean;
   private readonly autoDetectLongPolling: boolean;
   private readonly useFetchStreams: boolean;
   private readonly baseUrl: string;
   private readonly databaseRoot: string;
 
-  constructor() {
+  constructor(public forceLongPolling: boolean) {
     this.baseUrl = 'http://localhost:8080';
     this.databaseRoot =
         'projects/ios-crash-debug/databases/(default)/documents';
-    this.forceLongPolling = false;
     this.autoDetectLongPolling = false;
     this.useFetchStreams = true
   }

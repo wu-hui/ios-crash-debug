@@ -38,10 +38,11 @@ const templateReq: ListenReq = {
 
 export const fetchDocsByWC = async (
     maxCount: number,
+    longPolling: boolean,
     onLoadingPage: (count: number) => void
 ) => {
   let repeat = 10;
-  const conn = new WebChannelConnection();
+  const conn = new WebChannelConnection(longPolling);
   const stream = conn.openStream<ListenReq, unknown>('Listen');
   let req = {...templateReq};
   // @ts-ignore

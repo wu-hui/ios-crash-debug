@@ -7,10 +7,17 @@ export const DebugComponent: React.FC = () => {
   const [started, setStarted] = React.useState(false);
   const [done, setDone] = React.useState(false);
 
-  const startOnfetchDocsByWC = useCallback(async (maxCount: number) => {
+  const startOnfetchDocsByWCNoLongPolling = useCallback(async (maxCount: number) => {
     console.log('starting');
     setStarted(true);
-    await fetchDocsByWC(maxCount, setCount);
+    await fetchDocsByWC(maxCount, false, setCount);
+    setDone(true);
+  }, []);
+
+  const startOnfetchDocsByWCWithLongPolling = useCallback(async (maxCount: number) => {
+    console.log('starting');
+    setStarted(true);
+    await fetchDocsByWC(maxCount, true, setCount);
     setDone(true);
   }, []);
 
@@ -24,7 +31,7 @@ export const DebugComponent: React.FC = () => {
     <div>
       {started ? null : (
           <>
-            <h4>Grab documents by webchannel (repeat 10 times)</h4>
+            <h4>No longpolling: Grab documents by webchannel (repeat 10 times)</h4>
 
             <ul
                 style={{
@@ -36,7 +43,31 @@ export const DebugComponent: React.FC = () => {
               {[100, 200, 300, 400, 500].map((maxCount) => {
                 return (
                     <li key={maxCount}>
-                      <button onClick={() => startOnfetchDocsByWC(maxCount)}>
+                      <button onClick={() => startOnfetchDocsByWCNoLongPolling(maxCount)}>
+                        click to load {maxCount} documents
+                      </button>
+                    </li>
+                );
+              })}
+            </ul>
+          </>
+      )}
+
+      {started ? null : (
+          <>
+            <h4>Force longpolling: Grab documents by webchannel (repeat 10 times)</h4>
+
+            <ul
+                style={{
+                  listStyle: "none",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+            >
+              {[100, 200, 300, 400, 500].map((maxCount) => {
+                return (
+                    <li key={maxCount}>
+                      <button onClick={() => startOnfetchDocsByWCWithLongPolling(maxCount)}>
                         click to load {maxCount} documents
                       </button>
                     </li>
